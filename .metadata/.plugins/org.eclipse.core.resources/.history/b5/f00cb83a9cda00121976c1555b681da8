@@ -1,0 +1,78 @@
+package Tests;
+
+import java.io.BufferedReader;
+import java.io.BufferedWriter;
+import java.io.File;
+import java.io.FileReader;
+import java.io.FileWriter;
+import java.io.IOException;
+import org.apache.commons.codec.binary.Base64;
+import org.apache.commons.codec.binary.StringUtils;
+
+import sun.misc.BASE64Decoder;
+
+public class Fix {
+	public static void main(String[] args) throws IOException {
+
+		BufferedReader br = null;
+		StringBuilder sbb = new StringBuilder();
+		try {
+
+			String sCurrentLine;
+
+			br = new BufferedReader(new FileReader("/iap_test"));
+
+			while ((sCurrentLine = br.readLine()) != null) {
+				sbb.append(sCurrentLine);
+			}
+			
+		} catch (IOException e) {
+			e.printStackTrace();
+		} finally {
+			try {
+				if (br != null)
+					br.close();
+			} catch (IOException ex) {
+				ex.printStackTrace();
+			}
+		}
+		
+			 
+ String sb = sbb.toString();
+			File file = new File("/iap_fix_script_20_12");
+ 
+			// if file doesnt exists, then create it
+			if (!file.exists()) {
+				file.createNewFile();
+			}
+ 
+			FileWriter fw = new FileWriter(file.getAbsoluteFile());
+			BufferedWriter bw = new BufferedWriter(fw);
+ 
+		
+		
+		String pc = "player id = ";
+		String ic = "is_sandbox";
+		String rc = "receipt-data";
+//		ArrayList<String> playerIDs = new ArrayList<String>();
+		for(int i = 0;i >= 0 &&  i < sb.length(); ){
+			int ix = sb.indexOf(pc, i) + pc.length();
+			int iy = sb.indexOf(ic , ix);
+			String p = sb.substring(ix, iy-1);
+			ix = sb.indexOf(rc, ix) + rc.length() + 4;
+			iy = sb.indexOf("\"}", ix);
+			String rs = sb.substring(ix, iy);
+//			byte[] decoded = Base64.decodeBase64(rs);
+//			rs =new String(decoded);
+		    rs =  StringUtils.newStringUtf8(Base64.decodeBase64(rs, 'UTF-8'));
+			System.out.println(rs + "\n");
+			bw.write(p + "	" + rs + "	");
+			i = sb.indexOf(pc, ix);
+		}	
+	
+		bw.close();
+		System.out.println("done");
+	}
+
+	
+}
