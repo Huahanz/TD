@@ -1,5 +1,25 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <section name="Workbench">
+	<section name="PreferencesImportWizard">
+		<item value="/Users/huahan.zhang/Downloads/theme-21.epf" key=""/>
+		<list key="WizardPreferencesExportPage1.STORE_DESTINATION_NAMES_ID">
+			<item value="/Users/huahan.zhang/Downloads/theme-21.epf"/>
+		</list>
+	</section>
+	<section name="org.eclipse.ui.internal.dialogs.WorkbenchEditorsDialog">
+		<item value="0" key="sort"/>
+		<item value="false" key="allPersp"/>
+		<list key="bounds">
+			<item value="440"/>
+			<item value="44"/>
+			<item value="623"/>
+			<item value="448"/>
+		</list>
+		<list key="columns">
+			<item value="199"/>
+			<item value="400"/>
+		</list>
+	</section>
 	<section name="org.eclipse.ui.internal.QuickAccess">
 		<item value="900" key="dialogWidth"/>
 		<item value="563" key="dialogHeight"/>
@@ -12,6 +32,27 @@
 		<list key="textEntries">
 		</list>
 	</section>
+	<section name="WorkbenchPreferenceDialogSettings">
+		<item value="0" key="DIALOG_Y_ORIGIN"/>
+		<item value="37" key="DIALOG_X_ORIGIN"/>
+	</section>
+	<section name="ZipFileImportWizard">
+		<item value="false" key="WizardZipFileResourceImportPage1.STORE_OVERWRITE_EXISTING_RESOURCES_ID"/>
+		<list key="WizardZipFileResourceImportPage1.STORE_SOURCE_NAMES_ID">
+			<item value="/Users/huahan.zhang/Downloads/jcip-examples-src.jar"/>
+		</list>
+	</section>
+	<section name="NewWizardAction">
+	</section>
+	<section name="org.eclipse.ui.preferences.keysPreferencePage">
+		<item value="true" key="uncategorizedFilter"/>
+		<item value="true" key="internalFilter"/>
+		<item value="true" key="actionSetFilter"/>
+	</section>
 	<section name="ImportExportAction">
+		<item value="org.eclipse.ui.wizards.import.ZipFile" key="ImportExportPage.STORE_SELECTED_IMPORT_WIZARD_ID"/>
+		<list key="ImportExportPage.STORE_EXPANDED_IMPORT_CATEGORIES">
+			<item value="org.eclipse.ui.Basic"/>
+		</list>
 	</section>
 </section>

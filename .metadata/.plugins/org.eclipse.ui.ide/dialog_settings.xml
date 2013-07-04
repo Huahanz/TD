@@ -1,7 +1,31 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <section name="Workbench">
+	<section name="org.eclipse.ui.dialogs.FilteredResourcesSelectionDialog">
+		<item value="true" key="ShowStatusLine"/>
+		<item value="false" key="ShowDerived"/>
+		<item value="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;&#x0A;&lt;workingSet workingSetName=&quot;&quot;/&gt;" key="WorkingSet"/>
+		<item value="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;&#x0A;&lt;History&gt;&#x0A;&lt;historyRootNode&gt;&#x0A;&lt;infoNode path=&quot;/TDJava/.metadata/.plugins/org.eclipse.jdt.ui/QualifiedTypeNameHistory.xml&quot; type=&quot;1&quot;/&gt;&#x0A;&lt;infoNode path=&quot;/TDJava/.git/config&quot; type=&quot;1&quot;/&gt;&#x0A;&lt;infoNode path=&quot;/TDJava/src/Controller/HttpManager.java&quot; type=&quot;1&quot;/&gt;&#x0A;&lt;infoNode path=&quot;/TDJava/src/Tests/PostTest.java&quot; type=&quot;1&quot;/&gt;&#x0A;&lt;infoNode path=&quot;/TDJava/src/Wrapper/Parser.java&quot; type=&quot;1&quot;/&gt;&#x0A;&lt;infoNode path=&quot;/TDJava/src/worker/Scheduler.java&quot; type=&quot;1&quot;/&gt;&#x0A;&lt;infoNode path=&quot;/TDJava/src/Data/MemcacheManager.java&quot; type=&quot;1&quot;/&gt;&#x0A;&lt;infoNode path=&quot;/TDJava/src/Invoke/Main.java&quot; type=&quot;1&quot;/&gt;&#x0A;&lt;infoNode path=&quot;/TDJava/src/balls/ActiveBall.java&quot; type=&quot;1&quot;/&gt;&#x0A;&lt;infoNode path=&quot;/TDJava/src/balls/ActiveBallRunnable.java&quot; type=&quot;1&quot;/&gt;&#x0A;&lt;infoNode path=&quot;/TDJava/src/balls/BulletBallRunnable.java&quot; type=&quot;1&quot;/&gt;&#x0A;&lt;infoNode path=&quot;/TDJava/src/balls/TowerBall.java&quot; type=&quot;1&quot;/&gt;&#x0A;&lt;infoNode path=&quot;/TDJava/src/balls/TowerBallRunnable.java&quot; type=&quot;1&quot;/&gt;&#x0A;&lt;infoNode path=&quot;/TDJava/src/Helpers/LogHelper.java&quot; type=&quot;1&quot;/&gt;&#x0A;&lt;infoNode path=&quot;/TDJava/src/Send/SendManager.java&quot; type=&quot;1&quot;/&gt;&#x0A;&lt;infoNode path=&quot;/TDJava/src/Send/SendWrapper.java&quot; type=&quot;1&quot;/&gt;&#x0A;&lt;infoNode path=&quot;/TDJava/src/Helpers/GameManager.java&quot; type=&quot;1&quot;/&gt;&#x0A;&lt;infoNode path=&quot;/TDJava/src/Helpers/BallCache.java&quot; type=&quot;1&quot;/&gt;&#x0A;&lt;infoNode path=&quot;/TDJava/src/Model/PVPStore.java&quot; type=&quot;1&quot;/&gt;&#x0A;&lt;infoNode path=&quot;/TDJava/src/Helpers/Config.java&quot; type=&quot;1&quot;/&gt;&#x0A;&lt;infoNode path=&quot;/TDJava/src/Data/QueueManager.java&quot; type=&quot;1&quot;/&gt;&#x0A;&lt;infoNode path=&quot;/TDJava/src/Wrapper/MapInfo.java&quot; type=&quot;1&quot;/&gt;&#x0A;&lt;infoNode path=&quot;/TDJava/src/Helpers/GameAux.java&quot; type=&quot;1&quot;/&gt;&#x0A;&lt;infoNode path=&quot;/TDJava/src/swingFrontEnd/GameInfo.java&quot; type=&quot;1&quot;/&gt;&#x0A;&lt;infoNode path=&quot;/TDJava/src/balls/Ball.java&quot; type=&quot;1&quot;/&gt;&#x0A;&lt;infoNode path=&quot;/TDJava/design/Todo&quot; type=&quot;1&quot;/&gt;&#x0A;&lt;infoNode path=&quot;/TDJava/src/Simulator/Simulator.java&quot; type=&quot;1&quot;/&gt;&#x0A;&lt;infoNode path=&quot;/TDJava/src/Request/RequestManager.java&quot; type=&quot;1&quot;/&gt;&#x0A;&lt;infoNode path=&quot;/TDJava/src/Send/Postman.java&quot; type=&quot;1&quot;/&gt;&#x0A;&lt;infoNode path=&quot;/TDJava/src/Request/Requester.java&quot; type=&quot;1&quot;/&gt;&#x0A;&lt;infoNode path=&quot;/TDJava/src/Invoke/Setup.java&quot; type=&quot;1&quot;/&gt;&#x0A;&lt;infoNode path=&quot;/TDJava/src/Tests/Integration/IntegrationTest.java&quot; type=&quot;1&quot;/&gt;&#x0A;&lt;infoNode path=&quot;/TDJava/src/balls/BallRunnable.java&quot; type=&quot;1&quot;/&gt;&#x0A;&lt;infoNode path=&quot;/TDJava/src/worker/Executor.java&quot; type=&quot;1&quot;/&gt;&#x0A;&lt;/historyRootNode&gt;&#x0A;&lt;/History&gt;" key="History"/>
+		<section name="DialogBoundsSettings">
+			<item value="600" key="DIALOG_WIDTH"/>
+			<item value="106" key="DIALOG_Y_ORIGIN"/>
+			<item value="500" key="DIALOG_HEIGHT"/>
+			<item value="388" key="DIALOG_X_ORIGIN"/>
+			<item value="1|Lucida Grande|11.0|0|COCOA|1|LucidaGrande" key="DIALOG_FONT_NAME"/>
+		</section>
+	</section>
 	<section name="ExternalProjectImportWizard">
 		<item value="false" key="WizardProjectsImportPage.STORE_ARCHIVE_SELECTED"/>
 		<item value="false" key="WizardProjectsImportPage.STORE_COPY_PROJECT_ID"/>
+	</section>
+	<section name="CleanDialogSettings">
+		<item value="484" key="DIALOG_WIDTH"/>
+		<item value="true" key="BUILD_NOW"/>
+		<item value="true" key="BUILD_ALL"/>
+		<item value="225" key="DIALOG_Y_ORIGIN"/>
+		<item value="423" key="DIALOG_HEIGHT"/>
+		<item value="509" key="DIALOG_X_ORIGIN"/>
+		<item value="false" key="TOGGLE_SELECTED"/>
+	</section>
+	<section name="NewWizardAction">
 	</section>
 </section>
